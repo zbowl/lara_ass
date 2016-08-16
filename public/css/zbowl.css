@@ -1,0 +1,18 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+    background-color: rgba(11, 58, 2, 0.64);
+}
+#wrapper{
+    
+    background-color: #ffffff;
+}
+#topheader{
+    background-color: #336600;
+}
+
+#footer{
+    float: none;
+    clear: both;
+    text-align: center;
+}
