@@ -1,0 +1,16 @@
+{
+    "remotePath": "./",
+    "host": "zidros.duckdns.org",
+    "username": "zbowl",
+    "password": "Martin88!!",
+    "port": 22,
+    "protocol": "sftp",
+    "uploadOnSave": true,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git"
+    ]
+}
