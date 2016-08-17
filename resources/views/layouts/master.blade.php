@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        
+
         <title>@yield('title')</title>
         <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.css') }}">
         <link rel="stylesheet" href="{{ asset('fontawesome/css/font-awesome.css') }}">
@@ -10,8 +10,8 @@
         <script src="{{ asset('js/jQuery/jquery-1.11.3.min.js') }}" type="text/javascript"></script>
         <script src="{{ asset('bootstrap/js/bootstrap.js') }}" type="text/javascript"></script>
         <script src="{{ asset('ckeditor/ckeditor.js') }}" type="text/javascript"></script>
-        
-        
+
+
     </head>
     <body>
     <div id="wrapper" class="container">
@@ -34,12 +34,12 @@
 
                     <ul class="nav navbar-nav">
                         <li><a href="/">Home</a></li>
-                        <!--<li><a href="/pages" class="horizontalnav" >Overview</a></li>-->
+                        <li><a href="/pages" class="horizontalnav" >Overview</a></li>
                         <li><a href="/pages/milequip" class="horizontalnav">Buy/Sell Military Gear</a></li>
                         <li><a href="/pages/erecycle" class="horizontalnav">Electronic Recycling</a></li>
                         <li><a href="/pages/frecycle" class="horizontalnav">Furniture Recycling</a></li>
-                        <!-- Dropdown Menus --
-                        -- Dropdown menu for military products --
+                        {{--<!-- Dropdown Menus --!>
+                        <!-- Dropdown menu for military products --!>
                         <li role="presentation" class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-hashup="true" aria-expanded="false">
                                 Military Equipment<span class="caret"></span>
@@ -52,7 +52,7 @@
                             </ul>
                         </li>
 
-                        -- Dropdown menu for electronic products --
+                        <!-- Dropdown menu for electronic products --!>
                         <li role="presentation" class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-hashup="true" aria-expanded="false">
                                 Electronics<span class="caret"></span>
@@ -61,12 +61,12 @@
                                 <li><a href="">Desktops</a></li>
                                 <li><a href="">Laptops</a></li>
                                 <li><a href="">Monitors</a></li>
-                                <li><a href="">Servers</a></li>                            
+                                <li><a href="">Servers</a></li>
                                 <li><a href="">Hardware</a></li>
                             </ul>
-                        </li>                    
+                        </li>
 
-                        -- Dropdown menu for created sites --
+                        <!-- Dropdown menu for created sites --!>
                         <li role="presentation" class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-hashup="true" aria-expanded="false">
                                 Services<span class="caret"></span>
@@ -78,22 +78,23 @@
                                 <li><a href="/pages/frecycle" class="horizontalnav">Furniture Recycling</a></li>
                             </ul>
                         </li>
-                        -->
+                        --}}
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                     <li class="navbar-text">Welcome!</li>
                         <li><a href="/create">Create Page</a></li>
-                        
 
-                    </ul> 
+
+                    </ul>
                 </div>
             </div>
         </nav>
         </div>
+        <!-- main body -->
     <div id="maincontent" class="row">
         <div id="center" class="col-sm-8 col-lg-8 col-md-8 col-sm-push-3">
             <div class="panel panel-default">
-                <div  class="panel panel-heading">
+                <div  class="panel panel-success panel-heading">
                 <!-- this is main content to be displayed -->
                     @yield('header')
                 </div>
@@ -103,7 +104,7 @@
             </div>
         </div>
 
-    
+
         <div id="leftgutter" class="col-sm-3 col-lg-3 col-md-3 col-sm-pull-8">
             <!--Start of the Carousel-->
     <div id="assCarousel" class="carousel slide" data-ride="carousel">
@@ -117,11 +118,11 @@
             <li data-target="#assCarousel" data-slide-to="5" ></li>
         </ol>
     <!--Carousel Items -->
-                    
+
         <div class="carousel-inner" role="listbox">
             <div class="item active" >
             <a href="">
-                <img class="img-responsive" src="{{ asset('images/acu-trousers.png') }}" 
+                <img class="img-responsive" src="{{ asset('images/acu-trousers.png') }}"
                     alt="" style="margin-left:auto; margin-right:auto">
             </a>
             </div>
@@ -139,19 +140,19 @@
             </div>
             <div class="item" >
             <a href="">
-                <img class="img-responsive" src="{{ asset('images/oak-dresser.png') }}" 
+                <img class="img-responsive" src="{{ asset('images/oak-dresser.png') }}"
                     alt="" style="margin-left:auto; margin-right:auto">
             </a>
             </div>
             <div class="item" >
             <a href="">
-                <img class="img-responsive" src="{{ asset('images/gortex-combat-boots.png') }}" 
+                <img class="img-responsive" src="{{ asset('images/gortex-combat-boots.png') }}"
                     alt="" style="margin-left:auto; margin-right:auto">
             </a>
             </div>
                     <div class="item" >
             <a href="">
-                <img class="img-responsive" src="{{ asset('images/flight-bag.png') }}" 
+                <img class="img-responsive" src="{{ asset('images/flight-bag.png') }}"
                     alt="" style="margin-left:auto; margin-right:auto">
             </a>
             </div>
@@ -178,7 +179,7 @@
         </div>
     </div>
         <div id="footer" class="row" align="center">
-           
+
 
         </div>
 
