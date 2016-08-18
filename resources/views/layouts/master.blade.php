@@ -8,9 +8,7 @@
         <link rel="stylesheet" href="{{ asset('fontawesome/css/font-awesome.css') }}">
         <link rel="stylesheet" href="{{ asset('bootstrap-social/bootstrap-social.css') }}">
         <link rel="stylesheet" href="{{ asset('css/zbowl.css') }}">
-        <script src="{{ asset('js/jQuery/jquery-1.11.3.min.js') }}" type="text/javascript"></script>
-        <script src="{{ asset('bootstrap/js/bootstrap.js') }}" type="text/javascript"></script>
-        <script src="{{ asset('ckeditor/ckeditor.js') }}" type="text/javascript"></script>
+        
 
 
     </head>
@@ -122,51 +120,43 @@
 
         <div class="carousel-inner" role="listbox">
             <div class="item active" >
-            <a href="">
+            
                 <img class="img-responsive" src="{{ asset('images/acu-trousers.png') }}"
                     alt="" style="margin-left:auto; margin-right:auto">
-            </a>
+            
             </div>
             <div class="item" >
-            <a href="">
+            
                 <img class="img-responsive" src="{{ asset('images/dell-19-lcd-monitor.png') }}"
                     alt="" style="margin-left:auto; margin-right:auto">
-            </a>
+            
             </div>
             <div class="item" >
-            <a href="">
+            
                 <img class="img-responsive" src="{{ asset('images/flight-suit.png') }}"
                     alt="" style="margin-left:auto; margin-right:auto">
-            </a>
+            
             </div>
             <div class="item" >
-            <a href="">
+            
                 <img class="img-responsive" src="{{ asset('images/oak-dresser.png') }}"
                     alt="" style="margin-left:auto; margin-right:auto">
-            </a>
+            
             </div>
             <div class="item" >
-            <a href="">
+            
                 <img class="img-responsive" src="{{ asset('images/gortex-combat-boots.png') }}"
                     alt="" style="margin-left:auto; margin-right:auto">
-            </a>
+            
             </div>
                     <div class="item" >
-            <a href="">
+            
                 <img class="img-responsive" src="{{ asset('images/flight-bag.png') }}"
                     alt="" style="margin-left:auto; margin-right:auto">
-            </a>
+            
             </div>
        </div>
-              <!-- Left and Right Carousel Arrows -->
-        <a class="left carousel-control" href="#assCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#assCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+              
 
 </div>
 
@@ -214,5 +204,8 @@
         </div>
 
         </div>
+        <script src="{{ asset('js/jQuery/jquery-1.11.3.min.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('bootstrap/js/bootstrap.js') }}" type="text/javascript"></script>
+        <script src="{{ asset('ckeditor/ckeditor.js') }}" type="text/javascript"></script>
     </body>
 </html>
