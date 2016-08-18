@@ -8,11 +8,3 @@
  */
 
 
-namespace App{
-/**
- * App\User
- *
- */
-	class User extends \Eloquent {}
-}
-

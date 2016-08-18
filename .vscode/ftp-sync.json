@@ -1,5 +1,5 @@
 {
-    "remotePath": "./",
+    "remotePath": "/var/www/html/lara_ass",
     "host": "zidros.duckdns.org",
     "username": "zbowl",
     "password": "Martin88!!",
@@ -11,6 +11,8 @@
     "privateKeyPath": null,
     "ignore": [
         "\\.vscode",
-        "\\.git"
+        "\\.git",
+        "\\storage",
+        "\\vendor"
     ]
 }
