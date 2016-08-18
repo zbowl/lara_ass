@@ -3,6 +3,7 @@
     <head>
 
         <title>@yield('title')</title>
+
         <link rel="stylesheet" href="{{ asset('bootstrap/css/bootstrap.css') }}">
         <link rel="stylesheet" href="{{ asset('fontawesome/css/font-awesome.css') }}">
         <link rel="stylesheet" href="{{ asset('bootstrap-social/bootstrap-social.css') }}">
@@ -92,7 +93,7 @@
         </div>
         <!-- main body -->
     <div id="maincontent" class="row">
-        <div id="center" class="col-sm-8 col-lg-8 col-md-8 col-sm-push-3">
+        <div id="center" class="col-sm-8 col-lg-8 col-md-8 col-sm-push-4">
             <div class="panel panel-default">
                 <div  class="panel panel-success panel-heading">
                 <!-- this is main content to be displayed -->
@@ -105,7 +106,7 @@
         </div>
 
 
-        <div id="leftgutter" class="col-sm-3 col-lg-3 col-md-3 col-sm-pull-8">
+        <div id="leftgutter" class="col-sm-4 col-lg-4 col-md-4 col-sm-pull-8">
             <!--Start of the Carousel-->
     <div id="assCarousel" class="carousel slide" data-ride="carousel">
         <!--Carousel Indicators-->
@@ -168,19 +169,48 @@
         </a>
 
 </div>
-<p>Army Surplus Sales<br/>
-            1205 10th Ave<br />
-            Council Bluffs, IA 51501<br/>
-            <a href="mailto:armysurplussales@yahoo.com">armysurplussales@yahoo.com</a>
-            <br/>
-            <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Army-Surplus-Sales-181296658568677" target="_blank">
-                <span class="fa fa-facebook"></span></a>
-</p>
+
+
         </div>
     </div>
         <div id="footer" class="row" align="center">
+          <div id="footerwrap">
 
+<div class="container">
+    <div class="col-lg-6">
+        <h3>Contact Us</h3>
+        <b>Office:</b>
+        <p>
+          Army Surplus Sales<br/>
+                      1205 10th Ave<br />
+                      Council Bluffs, IA 51501
+        </p>
+        <div><b style="width:55px;display:inline-block;">Phone: </b>  &nbsp;<a href="tel:+17123228399">(712) 322-8339</a></div>
+        <div style="margin-top:10px;"><b style="width:55px;display:inline-block;">Email: </b> &nbsp;<a href="mailto:armysurplussales@yahoo.com">armysurplussales@yahoo.com</a></div>
 
+        <div style="margin-top:5px;"><a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/Army-Surplus-Sales-181296658568677" target="_blank">
+            <span class="fa fa-facebook"></span></a></div>
+    </div>
+
+    <div class="col-lg-6">
+      <div class="flexible-container">
+        <br>
+      <iframe frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBDLs-iQm3tTuRh9Ro1QFAU6AVx-zrpO9U&q=Army+Surplus+Sales,1205+10th+Ave,Council+Bluffs+IA+51501" allowfullscreen>
+      </iframe>
+    </div>{{-- iframe flex --}}
+      <br>
+    </div>
+</div>
+
+</div> {{-- footerwrap --}}
+<div id="c">
+    <div class="container">
+        <p>
+            <strong>Copyright &copy; 2016. Powered by <a href="http://ww2.zidors.duckdns.org"><b>Zidros Consulting</b></a>
+        </p>
+    </div>
+</div>
         </div>
 
         </div>
